@@ -1,0 +1,202 @@
+@import url("https://use.typekit.net/acf7hpt.css");
+body {
+    font-family: lores-12, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    margin: 0 auto;
+    background-image: url("hubble_galaxy.jpg");
+}
+
+h1 {
+    font-size: 50px;
+    color: white;
+    text-align: center;
+}
+
+/*---------------------*/
+.jupiter{
+    position: fixed;
+    width: 8%;
+    top: 68%;
+    left: 5%;
+}
+/*Make img responsive*/
+.jupiter img{
+    width: 100%;
+    height: auto;
+}
+
+/* Style the button and give it custom placement */
+.jupiter .btn {
+    position: fixed;
+    top: 71%;
+    left: 6%;
+    background: none;
+    padding: 38px;
+    cursor: pointer;
+    border: none;
+}
+.jupitermp3 {
+    position: fixed;
+    left: 14%;
+    top: 73%;
+    width: 18%;
+    display: none;
+}
+
+
+/*--------------------------------*/
+.white_earth{
+    width: 70px;
+    position: fixed;
+    left: 90%;
+    top: 15%;
+}
+/*Make img responsive*/
+.white_earth img{
+    width: 100%;
+    height: auto;
+}
+
+/* Style the button and give it custom placement */
+.white_earth .btn {
+    position: fixed;
+    background: none;
+    padding: 33px;
+    cursor: pointer;
+    border: none;
+    left: 90%;
+    top: 15%;
+}
+
+.white_earthmp3{
+position: fixed;
+left: 71%;
+top: 16%;
+width: 18%;
+display: none;
+}
+
+/*--------------------------------*/
+.mond{
+    width: 60px;
+    position: fixed;
+    left: 59%;
+    top: 33%;
+}
+
+/*Make img responsive*/
+.mond img{
+    width: 100%;
+    height: auto;
+}
+
+/* Style the button and give it custom placement */
+.mond .btn {
+    position: fixed;
+    background: none;
+    padding: 29px;
+    cursor: pointer;
+    border: none;
+    left: 59%;
+    top: 33%;
+}
+
+.mondmp3{
+    position: fixed;
+    width: 18%;
+    left: 64%;
+    top: 33%;
+    display: none;
+}
+/*---------------------------------*/
+.planet_red{
+    width: 70px;
+    position: fixed;
+    left: 5%;
+    top: 15%;
+}
+
+.planet_red img{
+    width: 100%;
+    height: auto;
+}
+
+.planet_red .btn {
+    position: fixed;
+    background: none;
+    padding: 31px;
+    cursor: pointer;
+    border: none;
+    left: 5%;
+    top: 15%;
+}
+
+.planet_redmp3{
+    position: fixed;
+    left: 11%;
+    top: 16%;
+    width: 18%;
+    display: none;
+    }
+/*---------------------------------*/
+
+.saturn{
+    width: 223px;
+    position: fixed;
+    left: 66%;
+    top: 68%;
+}
+
+.saturn img{
+    width: 100%;
+    height: auto;
+}
+
+.saturn .btn {
+    position: fixed;
+    background: none;
+    padding: 39px 58px;
+    cursor: pointer;
+    top: 70%;
+    left: 70%;
+    border: none;
+}
+.saturnmp3{
+    position: fixed;
+    left: 48%;
+    top: 72%;
+    width: 18%;
+    display: none;
+    }
+/*---------------------------------*/
+
+.wasserplanet{
+    width: 132px;
+    position: fixed;
+    left: 30%;
+    top: 39%;
+}
+
+.wasserplanet img{
+    width: 100%;
+    height: auto;
+}
+
+.wasserplanet .btn{
+    position: fixed;
+    background: none;
+    padding: 55.5px;
+    cursor: pointer;
+    left: 30.5%;
+    top: 41%;
+    border: none;
+}
+
+.wasserplanetmp3{
+    position: fixed;
+    left: 40%;
+    top: 45%;
+    width: 18%;
+    display: none;
+    }

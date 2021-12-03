@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" href="https://use.typekit.net/acf7hpt.css">
+    <script src="script.js"></script>
+    <title>Space Musicplayer</title>
+</head>
+<body>
+    <div class="heading">
+        <h1>
+            click a planet to open the music player
+        </h1>
+    </div>
+<!--Jupiter-->
+    <div class="jupiter">
+        <img src="jupiter.png">
+        <button onclick="myFunctionA()" class="btn"> </button>
+    </div>
+    <audio id="jupitermp3" class="jupitermp3" controls>
+        <source src="music/Eclipse.mp3" type="audio/mpeg">
+    </audio>
+<!--White Earth-->
+    <div class="white_earth">
+        <img src="white_earth.png">
+        <button onclick="myFunctionB()" class="btn"> </button>
+    </div>
+    <audio id="white_earthmp3" class="white_earthmp3" controls>
+        <source src="music/Spaceman.mp3" type="audio/mpeg">
+    </audio>
+<!--Mond-->
+    <div class="mond">
+        <img src="mond.png">
+        <button class="btn" onclick="myFunctionC()"> </button>
+    </div>
+    <audio id="mondmp3" class="mondmp3" controls>
+        <source src="music/Fly Me To The Moon.mp3" type="audio/mpeg">
+    </audio>
+<!--Red Planet-->
+    <div class="planet_red">
+        <img src="planet_red.png">
+        <button class="btn" onclick="myFunctionD()"> </button>
+    </div>
+    <audio id="planet_redmp3" class="planet_redmp3" controls>
+        <source src="music/Rocket Man.mp3" type="audio/mpeg">
+    </audio>
+<!--Saturn-->
+    <div class="saturn">
+        <img src="saturn.png">
+        <button class="btn" onclick="myFunctionE()"> </button>
+    </div>
+    <audio id="saturnmp3" class="saturnmp3" controls>
+        <source src="music/Starman.mp3" type="audio/mpeg">
+    </audio>
+<!--Wasserplanet-->
+    <div class="wasserplanet">
+        <img src="wasserplanet.png">
+        <button class="btn" onclick="myFunctionF()"> </button>
+    </div>
+    <audio id="wasserplanetmp3" class="wasserplanetmp3" controls>
+        <source src="music/Walking On The Moon.mp3" type="audio/mpeg">
+    </audio>
+
+</body>
+</html>
